@@ -1,0 +1,223 @@
+:root {
+    --wt: #fff;
+    --rx: #5400A9;
+    --bl: #1244F3;
+    --vd: #34c37c;
+    --bln: #1c2c5c;
+    --cc: #ccc;
+    --nc: #9C9C9E;
+    --mm: #666;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: "Open Sans", sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+header {
+    padding: 10px 0;
+}
+
+header>.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    width: 150px;
+}
+
+header .logo img {
+    width: 100%;
+}
+
+header nav.menuDesktop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav.menuDesktop .search {
+    margin: 0 40px 0 0;
+}
+
+header nav.menuDesktop ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header nav.menuDesktop ul li {
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+header nav.menuDesktop ul li a {
+    text-decoration: none;
+    color: var(--bln);
+}
+
+header nav.menuDesktop ul li a:hover {
+    color: var(--bl);
+}
+
+header nav.menuDesktop .search_bar {
+    display: flex;
+    border: 1px solid var(--bln);
+    align-items: center;
+    padding: 3px 6px;
+    border-radius: 100px 0 250px 100px;
+}
+
+header nav.menuDesktop .search_bar:hover {
+    border-color: var(--bl);
+}
+
+header nav.menuDesktop .search_bar button {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+header nav.menuDesktop .search_bar button img {
+    width: 15px;
+}
+
+header nav.menuDesktop .search_bar input {
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    font-size: 15px;
+    padding: 0 0 0 5px;
+}
+
+header .options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .options .ico {
+    width: 30px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+header .options .ico:nth-child(3) {
+    width: 40px;
+}
+
+header .options .ico img {
+    width: 100%;
+}
+
+section>.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+section aside.one {
+    width: 20%;
+    height: 87vh;
+    padding: 20px 20px 0 0;
+    overflow-y: scroll;
+}
+
+section aside.one::-webkit-scrollbar {
+    width: 5px;
+}
+
+section aside.one::-webkit-scrollbar-track {
+    background: var(--cc);
+}
+
+section aside.one::-webkit-scrollbar-thumb {
+    background-color: var(--bl);
+    border-radius: 20px;
+}
+
+section aside.one p {
+    margin: 0 0 15px 0;
+    font-size: 14px;
+}
+
+section aside.one p a {
+    text-decoration: none;
+    color: var(--mm);
+}
+
+section aside.one .space {
+    margin: 40px auto;
+    background-color: var(--cc);
+    width: 100%;
+    height: 1px;
+
+}
+
+section aside.one a {
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+section aside.one a:hover {
+    color: var(--bl);
+}
+
+
+section aside.two {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+
+section aside.two .twocont {
+    width: 91%;
+    padding: 20px 0 0 20px;
+}
+
+.two h2 {
+    color: #333;
+}
+
+.book-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.book {
+    border: 1px solid #ccc;
+    border-radius: 10px 10px 0 0;
+}
+
+.book p {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.book img {
+    width: 100%;
+    height: 350px;
+    margin-bottom: 10px;
+    border-radius: 10px 10px 0 0;
+}

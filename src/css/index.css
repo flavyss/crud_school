@@ -1,0 +1,139 @@
+section aside.two h1{
+    font-size: 30px;
+    font-weight: 100;
+    color: var(--nc);
+}
+
+section aside.two .cards{
+    width: 100%;
+}
+
+section aside.two .cards .cardcont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+section aside.two .cards .cardcont .cardsingle{
+    width: calc(100% / 3);
+    padding: 0 30px;
+
+}
+
+section aside.two .cards .card{
+    box-shadow: 0px 0px 25px 0px rgb(213 213 213);;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+section aside.two .cards .card h1{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+section aside.two .cards .card .content{
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+section aside.two .cards .card .content p{
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--bl);
+    margin: 0 0 0 10px;
+}
+
+
+section aside.two .cards .card .content img{
+    width: 30px;
+    margin: 0 10px 0 0;
+}
+
+section aside.two .anotacoes .titleanote{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0 ;
+}
+
+section aside.two .anotacoes .titleanote h2{
+    font-size: 20px;
+    color: var(--nc);
+    font-weight: normal;
+}
+
+
+section aside.two .anotacoes .titleanote button{
+    background-color: var(--bl);
+    color: var(--wt);
+    padding: 5px 10px;
+    margin: 0 0 0 10px  ;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+section aside.two .anotacoes .tableNote{
+    width: 100%;
+    border: 1px solid var(--bln);
+    border-radius: 10px;
+    margin: 20px 0 0 0;
+}
+
+
+section aside.two .anotacoes .tableNote .topics{
+    display: flex;
+    justify-content: space-between;
+}
+
+section aside.two .topics .title{
+    width: 20%; 
+    padding: 5px 15px;
+    border-right: 1px solid var(--bln);
+    border-bottom: 1px solid var(--bln);
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+}
+
+section aside.two .topics .title h2,
+section aside.two .topics .anotacao h2{
+    font-size: 14px;
+    color: var(--bln);
+}
+
+
+section aside.two .topics .title:last-child(){
+    border-bottom: none;
+}
+
+section aside.two .topics .anotacao{
+    width: 65%;
+    padding: 5px 15px;
+    border-right: 1px solid var(--bln);
+    color: var(--bln);
+    border-bottom: 1px solid var(--bln);
+    font-size: 14px;
+}
+
+section aside.two .topics .icons{
+    width: 15%;
+    padding: 5px 15px;
+    border-bottom: 1px solid var(--bln);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section aside.two .topics .icons img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+

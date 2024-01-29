@@ -1,0 +1,22 @@
+.plan {
+    width: 95%;
+}
+
+.lesson-list {
+    list-style: none;
+    padding: 0;
+}
+
+.lesson-item {
+    margin-bottom: 20px;
+}
+
+.lesson-title {
+    color: #3498db;
+    margin-bottom: 5px;
+}
+
+.lesson-info {
+    color: #777;
+    margin-bottom: 10px;
+}

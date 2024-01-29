@@ -1,0 +1,27 @@
+h2 {
+    color: #333;
+    font-size: 24px;
+}
+
+table {
+    width: 95%;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+table th {
+    background-color: #1244F3;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/* Estilo ao passar o mouse sobre as linhas da tabela */
+table tr:hover {
+    background-color: #e0e0e0;
+}

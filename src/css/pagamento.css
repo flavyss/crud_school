@@ -1,0 +1,63 @@
+.payment-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 95%;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.payment-heading {
+    color: #333;
+}
+
+.payment-info {
+    margin-top: 20px;
+}
+
+.payment-amount {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+}
+
+.payment-options {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.payment-option-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.payment-option-button:hover {
+    background-color: #45a049;
+}
+
+.payment-option-button.boleto {
+    background-color: #2196F3;
+}
+
+.payment-option-button.boleto:hover {
+    background-color: #0b7dda;
+}
+
+.payment-option-button.cartao {
+    background-color: #FFC107;
+}
+
+.payment-option-button.cartao:hover {
+    background-color: #e0a800;
+}

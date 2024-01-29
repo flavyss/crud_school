@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/faq.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+
+            <div class="logo">
+                <img src="src/images/logo2.png" alt="">
+            </div>
+
+            <nav class="menuDesktop">
+                <div class="search">
+                    <form action="">
+                        <div class="search_bar">
+                            <button type="submit"><img src="src/images/magnifying-glass.png" alt=""></button>
+                            <input type="search" name="search">
+                        </div>
+                    </form>
+                </div>
+
+                <ul>
+                    <li><a href="index.html">Painel de Admin</a></li>
+                    <li><a href="">Relatórios</a></li>
+                    <li><a href="campus.html">Campus</a></li>
+                </ul>
+            </nav>
+
+            <div class="options">
+                <div class="ico">
+                    <img src="src/images/chate.png" alt="">
+                </div>
+
+                <div class="ico">
+                    <img src="src/images/notificationd.png" alt="">
+                </div>
+
+                <div class="ico">
+                    <img src="src/images/useru.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <aside class="one">
+                <p><a href="recursos_humanos.php">RECURSOS HUMANOS</a></p>
+                <p><a href="financeiro.html">FINANCEIRO</a></p>
+                <p><a href="pagamento.html">PAGAMENTO</a></p>
+                <div class="space"></div>
+                <p><a href="">ACADÊMICO</a></p>
+                <p><a href="biblioteca.html">BIBLIOTECA</a></p>
+                <p><a href="exames.html">EXAMES </a></p>
+                <p><a href="examesO.html">EXAMES ONLINE</a></p>
+                <p><a href="planosaula.html">PLANOS DE AULA</a></p>
+                <p><a href="infoA.html">INFORMAÇÕES DO ALUNO</a></p>
+                <p><a href="chat.html">CHAT</a></p>
+                <p><a href="boletin.html">BOLETIN</a></p>
+                <div class="space"></div>
+                <p><a href="ajuda.html">AJUDA</a></p>
+                <p><a href="suporte.html">SUPORTE</a></p>
+                <p><a href="">PERSONALIZAÇÃO</a></p>
+                <p><a href="">CONFIGURAÇÃO</a></p>
+            </aside>
+
+            <aside class="tree">
+                <h2>Accordion</h2>
+
+                <div>
+                    <button class="accordion">Section 1</button>
+                    <div class="panel">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+
+                    <button class="accordion">Section 2</button>
+                    <div class="panel">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+
+                    <button class="accordion">Section 3</button>
+                    <div class="panel">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+            </aside>
+
+        </div>
+    </section>
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
